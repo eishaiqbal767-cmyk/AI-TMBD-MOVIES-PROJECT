@@ -9,7 +9,7 @@ This project collects data on movies released between 2016 and 2026 from The Mov
 
 | `notebooks/TMBD_Project.ipynb` | The full project notebook: data collection, understanding, cleaning, EDA, skewness, outliers, feature engineering and selection, train-test split, models, evaluation, advanced techniques and the two proof-of-work logs |
 | `data/raw/tmdb_raw.csv` | Original raw dataset, one movie per row (1100 movies, 28 columns) |
-| `data/raw/raw_json.zip` | Unmodified API responses, one JSON file per movie |
+| Google Drive: `AI_Project/data/raw/json` | Unmodified API responses, one JSON file per movie (75 MB, kept on Drive because it exceeds GitHub's upload limit; available on request) |
 | `data/raw/movie_ids.csv` | The 1100 collected movie IDs with year and result page |
 | `data/raw/discover_summary.csv` | Pages used and pages available per year |
 | `data/raw/data_collection_log.txt`, `collection_log.json` | Data collection log |
