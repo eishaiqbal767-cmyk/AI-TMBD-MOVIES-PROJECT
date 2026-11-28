@@ -1,0 +1,14 @@
+Roll numbers: ['25L-3003', '25L-0025']
+SEED: 0025
+Training: 2026-11-27T18:19:03 to 2026-11-27T18:19:08
+Train size: 700 | Test size: 176
+
+                                        test MAE (M$)   test MSE  test RMSE (M$)  test R2
+model                                                                                    
+Ridge (sqrt/log, log target)                  128.613  6.063e+16         246.240    0.554
+Random Forest                                 141.473  7.407e+16         272.164    0.455
+Gradient Boosting                             133.750  6.596e+16         256.831    0.515
+Tuned Gradient Boosting                       135.519  7.311e+16         270.381    0.462
+Ridge + YJ features (log target)              130.574  6.364e+16         252.271    0.532
+Tuned Gradient Boosting + YJ                  134.729  6.965e+16         263.913    0.488
+FINAL: Ridge + YJ features + YJ target        133.963  6.820e+16         261.148    0.498

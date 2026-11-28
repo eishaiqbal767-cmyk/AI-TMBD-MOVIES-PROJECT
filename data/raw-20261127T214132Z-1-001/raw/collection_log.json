@@ -1,0 +1,1 @@
+{"roll_numbers": ["25L-3003", "25L-0025"], "start": "2026-11-21T19:51:32", "end": "2026-11-21T20:58:43", "requests": 1210, "note": "First full collection 19:51-20:08: 55 discover + 1100 detail requests (1155). The discover step was rerun at 20:58 (55 requests) to fix a summary column; the 1100 saved detail files were reused, not downloaded again."}

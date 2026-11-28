@@ -1,0 +1,7 @@
+Roll numbers: ['25L-3003', '25L-0025']
+Start: 2026-11-21T19:51:32
+End: 2026-11-21T20:58:43
+Requests: 1210
+Note: First full collection 19:51-20:08: 55 discover + 1100 detail requests (1155). The discover step was rerun at 20:58 (55 requests) to fix a summary column; the 1100 saved detail files were reused, not downloaded again.
+Rows: 1100
+SHA-256: 45903e104914bc20dc3352cf6914673c628396a9ecb1d7fd110cd92a167b5447
